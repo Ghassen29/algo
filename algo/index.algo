@@ -1,0 +1,23 @@
+ALGORITHM algorithm_name
+VAR str=STRING;
+var somme=1 :number
+var jomla = number
+var yo = number
+BEGIN
+    while(str<>".")Do 
+    lire str
+    IF (str=" ") THEN
+        somme=somme+1
+    END_IF
+    end_while
+jomla= str.length()
+  WHILE (str<>".") DO
+    if str="a" or "e" or "i"or "o" or "y" or "u"
+    yo= yo+1
+    END_IF
+  END_WHILE
+  write  ("voici le nombre des mots", somme)
+  write("voici le nombre de voyelle ",yo)
+  write("voici la longeur de la chaine", jomla)
+ 
+END
